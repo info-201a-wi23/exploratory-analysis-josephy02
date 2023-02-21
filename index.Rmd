@@ -9,7 +9,7 @@ output:
 
 Give your project a concise, interesting title that summarizes the entirety of your project
 
-### Kyle Grubb, Lewis Going, Joseph Yarad, Yasin
+### Kyle Grubb, Lewis Going, Joseph Yarad, Yasin Chowdhury
 
 Names of your team members
 
