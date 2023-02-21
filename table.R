@@ -1,4 +1,4 @@
-master_table <- merge(maindf, my_df, Cities)
+master_table <- merge(maindf, my_df, cities)
 colnames(master_table)[5] = "Vacancy Rate"
 colnames(master_table)[3] = "Days on market period"
 colnames(master_table)[4] = "Vacancy Rate 6 month period start"
