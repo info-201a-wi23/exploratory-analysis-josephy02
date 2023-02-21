@@ -14,7 +14,7 @@ calculate_state_averages <- function(cities) {
     mutate(avg_diff_ratio = median_list_ppsf_avg / median_ppsf_avg) 
 }
 
-state_averages <- calculate_state_averages(cities)]
+state_averages <- calculate_state_averages(cities)
 
 # Function to calculate the average homes sold by state
 average_homes_sold_by_state <- function(data) {
