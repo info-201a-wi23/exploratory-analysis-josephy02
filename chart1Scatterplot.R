@@ -3,7 +3,21 @@ library("ggplot2")
 library("tidyverse")
 library("viridis")
 
-cities <- read.csv("cities.csv", stringsAsFactors = FALSE)
+df1 <- read.csv("df1.csv", stringsAsFactors = FALSE)
+df2 <- read.csv("df2.csv", stringsAsFactors = FALSE)
+df3 <- read.csv("df3.csv", stringsAsFactors = FALSE)
+df4 <- read.csv("df4.csv", stringsAsFactors = FALSE)
+df5 <- read.csv("df5.csv", stringsAsFactors = FALSE)
+df6 <- read.csv("df6.csv", stringsAsFactors = FALSE)
+
+cities <- merge(df1,df2, by = "city")
+cities <- merge(cities,df3, by = "city")
+cities <- merge(cities,df4, by = "city")
+cities <- merge(cities,df5, by = "city")
+cities <- merge(cities,df6, by = "city")
+
+
+
 
 # Function to calculate the state averages
 calculate_state_averages <- function(cities) {
