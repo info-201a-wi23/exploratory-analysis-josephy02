@@ -12,7 +12,7 @@ library("tidyverse")
 library("plotly")
 library("dplyr")
 
-my_df <- read.csv("~/Downloads/RRVRUSQ156N.csv")
+my_df <- read.csv("RRVRUSQ156N.csv")
 my_slice <- my_df %>%
   filter(DATE >= "2013-01-01")
 
