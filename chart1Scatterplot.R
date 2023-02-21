@@ -1,6 +1,7 @@
 # Author: Lewis Going
 library("ggplot2")
 library("tidyverse")
+library("viridis")
 
 cities <- read.csv("cities.csv", stringsAsFactors = FALSE)
 
