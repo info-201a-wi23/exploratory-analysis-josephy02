@@ -5,7 +5,7 @@ library("viridis")
 
 cities <- read.csv("cities.csv", stringsAsFactors = FALSE)
 
-# Define a function to calculate the state averages
+# Function to calculate the state averages
 calculate_state_averages <- function(cities) {
   cities %>% 
     group_by(state) %>% 
@@ -14,7 +14,7 @@ calculate_state_averages <- function(cities) {
     mutate(avg_diff_ratio = median_list_ppsf_avg / median_ppsf_avg) 
 }
 
-state_averages <- calculate_state_averages(cities)
+state_averages <- calculate_state_averages(cities)]
 
 # Function to calculate the average homes sold by state
 average_homes_sold_by_state <- function(data) {
@@ -27,12 +27,14 @@ homes_sold_avg <- average_homes_sold_by_state(cities)
 
 state_averages <- left_join(state_averages, homes_sold_avg, by = "state")
 
-# Create a scatter plot with regression line
+state_averages <- state_averages[!state_averages$state == "Columbia",]
+
+# Scatter plot with regression line
 ggplot(state_averages, 
        aes(x = avg_diff_ratio, 
            y = avg_homes_sold)) +
   geom_point(aes(colour = state),
-             size = 2) +
+             size = 3) +
   geom_smooth(method="lm") +
   labs(x = "List vs sale ppsf ratio",
        y = "Average homes sold",
