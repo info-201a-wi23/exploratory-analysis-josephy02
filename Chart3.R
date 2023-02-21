@@ -20,4 +20,3 @@ specie <- c(rep("NYC" , 2) , rep("LA" , 2) , rep("Chicago" , 2) , rep("Houston" 
 ggplot(maindf, aes(x=region, y=days, fill=year)) +
   geom_bar(stat="identity", position=position_dodge()) + coord_flip()
 
-write.csv(maindf, "/Users/kyle/INFO201/new.csv", row.names = F)
