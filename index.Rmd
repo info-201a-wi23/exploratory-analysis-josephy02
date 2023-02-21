@@ -80,7 +80,7 @@ Despite these challenges, there are still ways for Seattle residents to get invo
 
 ### Summary Information
 
-Our findings concluded that finding housing in seattle is statistically harder in Seattle than other similar cities.
+Our findings concluded that finding housing in Seattle is statistically harder in Seattle than other similar cities.
 
 ### Table
 ```{r, echo = FALSE, code = readLines("Chart1Scatterplot.R")}
