@@ -10,7 +10,7 @@ ggplot(state_averages,
        aes(x = avg_diff_ratio, 
            y = avg_homes_sold)) +
   geom_point(aes(colour = state),
-             size = 3) +
+             size = 2) +
   geom_smooth(method="lm") +
   labs(x = "List vs sale ppsf ratio",
        y = "Average homes sold",
@@ -18,4 +18,4 @@ ggplot(state_averages,
        subtitle = "Average ratio between list and sale price-per-square-foot") +
   scale_color_viridis(discrete = T) +
   theme_minimal() +
-  theme(text = element_text(size=16))
+  theme(text = element_text(size=12))
