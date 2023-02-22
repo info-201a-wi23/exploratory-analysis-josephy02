@@ -760,105 +760,97 @@ statistically harder in Seattle than other similar cities.</p>
 </div>
 <div id="table" class="section level3">
 <h3>Table</h3>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
 <pre><code>## Warning in !is.null(rmarkdown::metadata$output) &amp;&amp; rmarkdown::metadata$output
 ## %in% : &#39;length(x) = 2 &gt; 1&#39; in coercion to &#39;logical(1)&#39;</code></pre>
+<pre><code>## 
+## Attaching package: &#39;kableExtra&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
+## 
+##     group_rows</code></pre>
 <table class="table" style="width: auto !important; ">
 <thead>
 <tr>
-<th style="text-align:right;">
-X
-</th>
 <th style="text-align:left;">
-region
+Region
 </th>
 <th style="text-align:right;">
-days
+Days
 </th>
 <th style="text-align:left;">
-year
+Year
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-1
-</td>
-<td style="text-align:left;">
-Austin, TX
-</td>
-<td style="text-align:right;">
-19.64706
-</td>
-<td style="text-align:left;">
-2013-2017
-</td>
-</tr>
-<tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-2
-</td>
-<td style="text-align:left;">
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
 Charlotte, NC
 </td>
 <td style="text-align:right;">
-119.00000
+119.00
 </td>
 <td style="text-align:left;">
 2013-2017
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-3
-</td>
-<td style="text-align:left;">
-Chicago, IL
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+El Paso, TX
 </td>
 <td style="text-align:right;">
-43.90000
+90.67
 </td>
 <td style="text-align:left;">
 2013-2017
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-4
-</td>
-<td style="text-align:left;">
-Columbus, OH
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+New York, NY
 </td>
 <td style="text-align:right;">
-51.63636
+88.60
+</td>
+<td style="text-align:left;">
+2018-2022
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+New York, NY
+</td>
+<td style="text-align:right;">
+82.75
 </td>
 <td style="text-align:left;">
 2013-2017
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-5
-</td>
-<td style="text-align:left;">
-Dallas, TX
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+Indianapolis, IN
 </td>
 <td style="text-align:right;">
-34.50000
+72.33
 </td>
 <td style="text-align:left;">
 2013-2017
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-6
-</td>
-<td style="text-align:left;">
-Denver, CO
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+Jacksonville, FL
 </td>
 <td style="text-align:right;">
-33.27778
+62.79
 </td>
 <td style="text-align:left;">
 2013-2017
@@ -869,166 +861,124 @@ Denver, CO
 <table class="table" style="width: auto !important; ">
 <thead>
 <tr>
-<th style="text-align:right;">
-X
-</th>
 <th style="text-align:left;">
-state
+State
 </th>
 <th style="text-align:right;">
-median_ppsf_avg
+Median Price Per Square Foot Average
 </th>
 <th style="text-align:right;">
-median_list_ppsf_avg
+Median List Price Per Square Foot Average
 </th>
 <th style="text-align:right;">
-median_list_ppsf_avg.1
+Average List to Sale Difference Ratio
 </th>
 <th style="text-align:right;">
-avg_diff_ratio
-</th>
-<th style="text-align:right;">
-avg_homes_sold
+Average Homes Sold
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-1
-</td>
-<td style="text-align:left;">
-Alabama
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+Illinois
 </td>
 <td style="text-align:right;">
-99.21508
+108.33
 </td>
 <td style="text-align:right;">
-106.1736
+121.19
 </td>
 <td style="text-align:right;">
-106.1736
+1.12
 </td>
 <td style="text-align:right;">
-1.070135
-</td>
-<td style="text-align:right;">
-15.41364
+14.67
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-2
-</td>
-<td style="text-align:left;">
-Alaska
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+New York
 </td>
 <td style="text-align:right;">
-156.21851
+140.91
 </td>
 <td style="text-align:right;">
-164.9551
+157.53
 </td>
 <td style="text-align:right;">
-164.9551
+1.12
 </td>
 <td style="text-align:right;">
-1.055925
-</td>
-<td style="text-align:right;">
-17.00253
+10.02
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-3
-</td>
-<td style="text-align:left;">
-Arizona
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+Iowa
 </td>
 <td style="text-align:right;">
-164.20034
+117.63
 </td>
 <td style="text-align:right;">
-177.6688
+129.25
 </td>
 <td style="text-align:right;">
-177.6688
+1.10
 </td>
 <td style="text-align:right;">
-1.082025
-</td>
-<td style="text-align:right;">
-48.65734
+11.42
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-4
-</td>
-<td style="text-align:left;">
-Arkansas
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+Florida
 </td>
 <td style="text-align:right;">
-97.49389
+164.57
 </td>
 <td style="text-align:right;">
-104.7561
+180.04
 </td>
 <td style="text-align:right;">
-104.7561
+1.09
 </td>
 <td style="text-align:right;">
-1.074489
-</td>
-<td style="text-align:right;">
-15.03016
+28.77
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-5
-</td>
-<td style="text-align:left;">
-California
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+South Carolina
 </td>
 <td style="text-align:right;">
-346.40172
+121.08
 </td>
 <td style="text-align:right;">
-368.3095
+131.78
 </td>
 <td style="text-align:right;">
-368.3095
+1.09
 </td>
 <td style="text-align:right;">
-1.063244
-</td>
-<td style="text-align:right;">
-21.30606
+18.61
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-6
-</td>
-<td style="text-align:left;">
-Colorado
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+Idaho
 </td>
 <td style="text-align:right;">
-216.34615
+167.55
 </td>
 <td style="text-align:right;">
-211.8524
+182.29
 </td>
 <td style="text-align:right;">
-211.8524
+1.09
 </td>
 <td style="text-align:right;">
-0.979229
-</td>
-<td style="text-align:right;">
-24.44035
+21.63
 </td>
 </tr>
 </tbody>
@@ -1036,23 +986,17 @@ Colorado
 <table class="table" style="width: auto !important; ">
 <thead>
 <tr>
-<th style="text-align:right;">
-X
-</th>
 <th style="text-align:left;">
-DATE
+Date
 </th>
 <th style="text-align:right;">
-RRVRUSQ156N
+Rental Vanacancy Rate Percentage
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-1
-</td>
-<td style="text-align:left;">
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
 2013-01-01
 </td>
 <td style="text-align:right;">
@@ -1060,21 +1004,7 @@ RRVRUSQ156N
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-2
-</td>
-<td style="text-align:left;">
-2013-04-01
-</td>
-<td style="text-align:right;">
-8.2
-</td>
-</tr>
-<tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-3
-</td>
-<td style="text-align:left;">
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
 2013-07-01
 </td>
 <td style="text-align:right;">
@@ -1082,21 +1012,7 @@ RRVRUSQ156N
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-4
-</td>
-<td style="text-align:left;">
-2013-10-01
-</td>
-<td style="text-align:right;">
-8.2
-</td>
-</tr>
-<tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-5
-</td>
-<td style="text-align:left;">
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
 2014-01-01
 </td>
 <td style="text-align:right;">
@@ -1104,10 +1020,23 @@ RRVRUSQ156N
 </td>
 </tr>
 <tr>
-<td style="text-align:right;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
-6
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+2013-04-01
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
+8.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
+2013-10-01
+</td>
+<td style="text-align:right;">
+8.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: black !important;background-color: lightgrey !important;border-right:1px solid;">
 2014-04-01
 </td>
 <td style="text-align:right;">
@@ -1120,14 +1049,13 @@ RRVRUSQ156N
 <div id="chart-1" class="section level3">
 <h3>Chart 1</h3>
 <pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-## ✔ tibble  3.1.8     ✔ dplyr   1.1.0
+## ✔ tibble  3.1.8     ✔ purrr   1.0.1
 ## ✔ tidyr   1.3.0     ✔ stringr 1.5.0
 ## ✔ readr   2.1.3     ✔ forcats 1.0.0
-## ✔ purrr   1.0.1     
 ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter()     masks stats::filter()
-## ✖ dplyr::group_rows() masks kableExtra::group_rows()
-## ✖ dplyr::lag()        masks stats::lag()
+## ✖ dplyr::filter()          masks stats::filter()
+## ✖ kableExtra::group_rows() masks dplyr::group_rows()
+## ✖ dplyr::lag()             masks stats::lag()
 ## Loading required package: viridisLite
 ## 
 ## `geom_smooth()` using formula = &#39;y ~ x&#39;</code></pre>
@@ -1188,6 +1116,12 @@ shift downward in supply comes an increase in prices. Additionally real
 estate investment has become more popular for investment groups in
 recent years which has artificially inflated demand and left homes
 vacant for the people that need them.</p>
+</div>
+<div id="citations" class="section level3">
+<h3>Citations</h3>
+<pre><code>Redfin. &quot;Data Center.&quot; Redfin, 2023, https://www.redfin.com/news/data-center/.
+
+Federal Reserve Bank of St. Louis. &quot;Real Residential Vacancy Rate: U.S.&quot; FRED, Federal Reserve Bank of St. Louis, 2023, https://fred.stlouisfed.org/series/RRVRUSQ156N.</code></pre>
 </div>
 </div>
 
