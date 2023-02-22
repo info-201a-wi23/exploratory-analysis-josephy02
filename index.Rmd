@@ -1,21 +1,17 @@
 ---
 title: "Exploratory Analysis"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ## Who is Destroying the Seattle Housing Market?
 
-Give your project a concise, interesting title that summarizes the entirety of your project
-
 ### Kyle Grubb, Lewis Going, Joseph Yarad, Yasin Chowdhury
-
-Names of your team members
 
 ### 2/20/2023
 
-Winter 2022
+### Winter 2022
 
 ### Abstract
 
@@ -23,11 +19,11 @@ Our group is concerned with Seattle residents' ability to find housing. We want 
 
 ### Keywords
 
-Homelessness, Housing Prices, Covid-19, Housing Vacancy, Market Failure
+Homelessness, Housing Prices, COVID-19, Housing Vacancy, Market Failure
 
-### Introduction  
+### Introduction
 
-Seattle is a beautiful and bustling city, but it's also notorious for its skyrocketing housing prices. As a college student, finding affordable housing in Seattle has been a struggle. The median home price of over $800,000 is simply out of reach for most of us.
+Seattle is a beautiful and bustling city, but it's also notorious for its skyrocketing housing prices. As a college student, finding affordable housing in Seattle has been a struggle. The median home price of over \$800,000 is simply out of reach for most of us.
 
 One of the biggest challenges of reducing housing prices in Seattle is the limited availability of land. As the city grows, developers are forced to build up instead of out, leading to an abundance of high-rise apartments and condos. Unfortunately, these housing options are often too expensive for the average college student.
 
@@ -37,22 +33,22 @@ Finally, there is significant opposition to new housing developments from some S
 
 Reducing housing prices in Seattle will require addressing these challenges by increasing the supply of affordable housing, relaxing zoning restrictions, and working with local communities to address concerns over new housing developments. As a college student, I believe this is a critical task for the city's future growth and development. While it won't be easy, it's a challenge we must face if we want Seattle to remain an affordable and livable city for all.
 
-### Related Work  
+### Related Work
 
 The Seattle housing market is a topic of significant interest in recent times, with several articles providing valuable insights into the market trends. In a report from The Madrona Group they highlight the continued growth of the Seattle housing market, with an increase in home prices and a decrease in inventory. The report attributes this trend to the high demand for housing and the limited supply of available homes. The report further indicates that the increasing population and the flourishing job market in Seattle contribute significantly to the high demand for housing.
 
 The New York Times article "Wonking Out: How the Remote Work Craze Made Housing Affordability Worse" discusses the impact of remote work on housing prices in the US, with Seattle being one of the cities experiencing the highest growth in home prices. With many employees choosing to work remotely, there has been a significant shift in the demand for housing, with many people moving away from city centers to more affordable suburbs. However, this trend has not been evident in Seattle, where the demand for housing has only continued to rise.
 
-According to Capital.com's housing market predictions, the Seattle housing market could fall in the coming years. The artificially inflated market due to Covid-19 could be due for an adjustment. The market is predicted to rise in the coming year of 2023, but at some point what goes up must come down and a market adjustment is on the way in the next half decade.
+According to Capital.com's housing market predictions, the Seattle housing market could fall in the coming years. The artificially inflated market due to COVID-19 could be due for an adjustment. The market is predicted to rise in the coming year of 2023, but at some point what goes up must come down and a market adjustment is on the way in the next half decade.
 
 ### The Dataset
 
-We found our dataset on redfin, an industry leader in the real estate. They collected the data becasue they are a national real estate broker, and thus have direct access to data from local multiple listing services, as well as insight from redfin real estate agents across the country. Redfin uses the data to estimate home prices and market trends for their own business but also publishes it for third parties like us to use.
+We found our data set on Redfin, an industry leader in the real estate. They collected the data because they are a national real estate broker, and thus have direct access to data from local multiple listing services, as well as insight from Redfin real estate agents across the country. Redfin uses the data to estimate home prices and market trends for their own business but also publishes it for third parties like us to use.
 
 There are 4,616,565 observations and 58 features in the data set.
 
-I do not think our group needs to worry about ethical issues with this data becasue redfin has coincidentally collected it while operating business, not gone far out of their way to collect a huge data set. There definately are issues of power within the real estate industry. Buying homes is the principal way that white families have built so much more wealth than POC families. But, just listing houses and collecting the data on those houses and their sale is not inhently problematic. Our biggest issue with the data set is its size. There are more than 260 million elements in the dataset, which does allow us to expand our scope of visualization and analytical possibilities but also means that working with the data takes a long time due to loading problems.
- 
+I do not think our group needs to worry about ethical issues with this data because Redfin has coincidentally collected it while operating business, not gone far out of their way to collect a huge data set. There definitely are issues of power within the real estate industry. Buying homes is the principal way that white families have built so much more wealth than POC families. But, just listing houses and collecting the data on those houses and their sale is not intently problematic. Our biggest issue with the data set is its size. There are more than 260 million elements in the data set, which does allow us to expand our scope of visualization and analytically possibilities but also means that working with the data takes a long time due to loading problems.
+
 Working with housing data can present various challenges and complexities. When working with this data, it is essential to consider the potential pitfalls that could impact the accuracy and reliability of the analysis.
 
 One significant issue when working with housing data is the quality of the data itself. Incomplete or inaccurate data can lead to misleading results and misinformed conclusions. It is imperative to ensure that the data is accurate and complete before conducting any analysis.
@@ -67,8 +63,8 @@ In some cases, the sample size of the data set can be too small to draw reliable
 
 The implications of our research are entirely determined by how local government decides to use them. Without involvement from the community meaningful change is not going to take place in the Seattle area. There are thousands of people living on the streets, and unless people step up to make changes they do not have the option to simply get a job and start renting a place, that is not economically feasible. Hopefully data like this can spread information about why we have the problem we have in Seattle. If more people are aware of why their housing is so expensive, and those people are given accessible options to participate in making changes our group hopes that a movement can ignite to pass legislation that would make housing more accessible. The data that we are working with quantifiably proves that getting housing is more challenging than it needs to be. There are vacancy properties in Seattle that could be filled with homeless people, but because of the shortcomings of our government our community won't be able to do that without mass involvement.
 
-
 ### Limitations & Challenges
+
 Addressing the challenges of an expensive housing market is an incredibly difficult task for civilians, particularly in Seattle. The complexity of the issue makes it challenging for the average person to understand the multiple factors that contribute to the high cost of housing. Factors such as land availability, zoning laws, and economic growth are all at play, and understanding how these factors interact requires a level of expertise that most people do not have.
 
 Furthermore, there is often significant resistance to change from some Seattle residents, who are attached to the history and character of their neighborhoods. This resistance can make it challenging for policymakers to introduce measures that would increase the supply of affordable housing.
@@ -77,68 +73,26 @@ The cost of housing in Seattle is also connected to the city's broader economic 
 
 Despite these challenges, there are still ways for Seattle residents to get involved and work towards finding solutions to the housing crisis. This could involve attending community meetings, advocating for affordable housing policies, and supporting organizations that are working to increase access to affordable housing. While it may be a challenging task, working together to find solutions to Seattle's housing crisis is essential for the city's future growth and prosperity.
 
-
 ### Summary Information
 
 Our findings concluded that finding housing in Seattle is statistically harder in Seattle than other similar cities.
 
 ### Table
-```{r, echo = FALSE, code = readLines("Chart1Scatterplot.R")}
-head((master_table),30)
-```
+
+### ```{r, echo = FALSE, code = readLines("Table.R")}
+### head((master_table),30)
+### ```
+
 
 ### Chart 1
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-```{r, echo = FALSE, code = readLines("Chart1Scatterplot.R")}
+```{r, echo = FALSE, code = readLines("Chart1.R")}
+# Author: Lewis Going
 library("ggplot2")
 library("tidyverse")
 library("viridis")
 
-df1 <- read.csv("df1.csv", stringsAsFactors = FALSE)
-df2 <- read.csv("df2.csv", stringsAsFactors = FALSE)
-df3 <- read.csv("df3.csv", stringsAsFactors = FALSE)
-df4 <- read.csv("df4.csv", stringsAsFactors = FALSE)
-df5 <- read.csv("df5.csv", stringsAsFactors = FALSE)
-df6 <- read.csv("df6.csv", stringsAsFactors = FALSE)
-
-cities <- merge(df1,df2, by = "city")
-cities <- merge(cities,df3, by = "city")
-cities <- merge(cities,df4, by = "city")
-cities <- merge(cities,df5, by = "city")
-cities <- merge(cities,df6, by = "city")
-
-
-
-
-# Function to calculate the state averages
-calculate_state_averages <- function(cities) {
-  cities %>% 
-    group_by(state) %>% 
-    summarise(median_ppsf_avg = median(median_ppsf, na.rm = TRUE),
-              median_list_ppsf_avg = median(median_list_ppsf, na.rm = TRUE)) %>% 
-    mutate(avg_diff_ratio = median_list_ppsf_avg / median_ppsf_avg) 
-}
-
-state_averages <- calculate_state_averages(cities)
-
-# Function to calculate the average homes sold by state
-average_homes_sold_by_state <- function(data) {
-  data %>% 
-    group_by(state) %>% 
-    summarise(avg_homes_sold = mean(homes_sold, na.rm = TRUE))
-}
-
-homes_sold_avg <- average_homes_sold_by_state(cities)
-
-state_averages <- left_join(state_averages, homes_sold_avg, by = "state")
-
-state_averages <- state_averages[!state_averages$state == "Columbia",]
+state_averages <- read.csv("state_averages.csv", stringsAsFactors = FALSE)
 
 # Scatter plot with regression line
 ggplot(state_averages, 
@@ -157,9 +111,11 @@ ggplot(state_averages,
 
 ```
 
-The purpose of this chart was to visually represent the relationship between home sales and the ratio between list and sale price per square foot across states during the period from 2017 to 2022. The analysis suggests that there is a weak correlation between these two variables. Notably, the average number of homes sold in Nevada and Arizona was significantly higher than in other states, with homes selling slightly above the list price. Much fewer homes were sold in Vermont than in other states on average but the homes that did sell sold for around 1.08 times the list price on average. The next steps for this data is to figure out why there is little correlation between price per square foot ratio and houses sold. 
+The purpose of this chart was to visually represent the relationship between home sales and the ratio between list and sale price per square foot across states during the period from 2017 to 2022. The analysis suggests that there is a weak correlation between these two variables. Notably, the average number of homes sold in Nevada and Arizona was significantly higher than in other states, with homes selling slightly above the list price. Much fewer homes were sold in Vermont than in other states on average but the homes that did sell sold for around 1.08 times the list price on average. The next steps for this data is to figure out why there is little correlation between price per square foot ratio and houses sold.
+
 ### Chart 2
-```{r, echo = FALSE, code = readLines("Chart1Scatterplot.R")}
+
+```{r, echo = FALSE, code = readLines("Chart2.R")}
 library("ggplot2")
 library("tidyverse")
 library("plotly")
@@ -179,9 +135,10 @@ ggplot(data = my_slice, aes(x = Year, y = Percent, group = 1)) +
   scale_x_date(date_labels="%Y", date_breaks  = "1 year") 
 ```
 
-The data visualization shown above is taken from a well known data collecting group called FRED(https://fred.stlouisfed.org/). They provide national economic data as well as interactive visualization of said data. For this chart, we decided to focus on data collected since the mid-1900s up until the current day on rental vacancy rates in the United states. We decided to only focus on the data collected within the last 10 years for the sake of relevancy in our analysis. The data seems to show a somewhat linear and negative trend across time. We can pick out particular points and analyze e.g. in the beginning of 2020 the national vacancy rate was 6.3% while at the beginning of 2013 it was closer to 9%. While the implications if this data may not be immediately obvious, rental vacancy rates influence the market heavily. Lower vacancy rates correlate to more expensive housing. The next steps for this data analysis is to find data that shows the demographics of individuals renting and purchasing housing.
+The data visualization shown above is taken from a well known data collecting group called FRED(<https://fred.stlouisfed.org/>). They provide national economic data as well as interactive visualization of said data. For this chart, we decided to focus on data collected since the mid-1900s up until the current day on rental vacancy rates in the United states. We decided to only focus on the data collected within the last 10 years for the sake of relevancy in our analysis. The data seems to show a somewhat linear and negative trend across time. We can pick out particular points and analyze e.g. in the beginning of 2020 the national vacancy rate was 6.3% while at the beginning of 2013 it was closer to 9%. While the implications if this data may not be immediately obvious, rental vacancy rates influence the market heavily. Lower vacancy rates correlate to more expensive housing. The next steps for this data analysis is to find data that shows the demographics of individuals renting and purchasing housing.
 
 ### Chart 3
+
 ```{r, echo = FALSE, code = readLines("Chart3.R")}
 library("ggplot2")
 library("tidyverse")
@@ -206,5 +163,4 @@ ggplot(maindf, aes(x=region, y=days, fill=year)) +
   geom_bar(stat="identity", position=position_dodge())  + coord_flip() + ylab("Top 20 Largest Cities")
 ```
 
-
-This chart presents how recent changes in the housing market have affected demand for housing by comparing the median days on market in the top 20 largest US cities from 2018-2022 to the period 5 years earlier. Due to complications with Covid-19, demand for housing increased at an unprecedented rate. During the crisis and the precautions that came with it construction slowed to a hault. With a shift downward in supply comes an increase in prices. Additionally real estate investment has become more popular for investment groups in recent years which has artificially inflated demand and left homes vacant for the people that need them. 
+This chart presents how recent changes in the housing market have affected demand for housing by comparing the median days on market in the top 20 largest US cities from 2018-2022 to the period 5 years earlier. Due to complications with Covid-19, demand for housing increased at an unprecedented rate. During the crisis and the precautions that came with it construction slowed to a hault. With a shift downward in supply comes an increase in prices. Additionally real estate investment has become more popular for investment groups in recent years which has artificially inflated demand and left homes vacant for the people that need them.
