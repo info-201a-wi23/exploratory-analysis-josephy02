@@ -16,5 +16,6 @@ maindf <- dfone %>% full_join(dftwo)
 maindf$year <- c('2013-2017', '2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2013-2017','2018-2022', '2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022','2018-2022')
 
 specie <- c(rep("NYC" , 2) , rep("LA" , 2) , rep("Chicago" , 2) , rep("Houston" , 2) , rep("Philly" , 2) , rep("Pheonix" , 2) , rep("San Antonio" , 2) , rep("San Diego" , 2),rep("Dallas" , 2) , rep("San Jose" , 2) , rep("Austin" , 2) , rep("Jacksonville" , 2), rep("San Francisco" , 2) , rep("Fort Worth" , 2) , rep("Charlotte" , 2) , rep("Seattle" , 2), rep("Denver" , 2) , rep("El Paso" , 2))
+
 ggplot(maindf, aes(x=region, y=days, fill=year)) +
   geom_bar(stat="identity", position=position_dodge()) + coord_flip() + ylab("20 Largest US Cities")
