@@ -1,19 +1,24 @@
-df1 <- read.csv("df1.csv", stringsAsFactors = FALSE)
-df2 <- read.csv("df2.csv", stringsAsFactors = FALSE)
-df3 <- read.csv("df3.csv", stringsAsFactors = FALSE)
-df4 <- read.csv("df4.csv", stringsAsFactors = FALSE)
-df5 <- read.csv("df5.csv", stringsAsFactors = FALSE)
-df6 <- read.csv("df6.csv", stringsAsFactors = FALSE)
+library(kableExtra)
 
-cities <- left_join(df1,df2, by = "city")
-cities <- left_join(cities,df3, by = "city")
-cities <- left_join(cities,df4, by = "city")
-cities <- left_join(cities,df5, by = "city")
-cities <- left_join(cities,df6, by = "city")
+kyle_summary <- read.csv("kyle_summary_df.csv", stringsAsFactors = FALSE)
+state_averages <- read.csv("state_averages.csv", stringsAsFactors = FALSE)
+joseph_summary <- read.csv("joseph_summary.csv", stringsAsFactors = FALSE)
 
-master_table <- merge(maindf, my_df, cities)
-colnames(master_table)[5] = "Vacancy Rate"
-colnames(master_table)[3] = "Days on market period"
-colnames(master_table)[4] = "Vacancy Rate 6 month period start"
+kyle_summary <- kyle_summary %>% select(-X)
+state_averages <- state_averages %>% select(-X)
+joseph_summary <- joseph_summary %>% select(-X)
 
-master_table <- master_table %>% summarise(region, days = round(days,1), master_table[3],master_table[4],master_table[5])
+head(kyle_summary[c("X","region","days", "year")])%>%
+  kable() %>%
+  kable_styling(position = "left", full_width = FALSE) %>%
+  column_spec(1, bold = TRUE, border_right = TRUE, color = "black", background = "lightgrey")
+#-------------------------
+head(state_averages[c("X","state", "median_ppsf_avg","median_list_ppsf_avg","median_list_ppsf_avg", "avg_diff_ratio","avg_homes_sold")])%>%
+  kable() %>%
+  kable_styling(position = "left", full_width = FALSE) %>%
+  column_spec(1, bold = TRUE, border_right = TRUE, color = "black", background = "lightgrey")
+#-------------------------------
+head(joseph_summary[c("X","DATE","RRVRUSQ156N")])%>%
+  kable() %>%
+  kable_styling(position = "left", full_width = FALSE) %>%
+  column_spec(1, bold = TRUE, border_right = TRUE, color = "black", background = "lightgrey")
