@@ -79,7 +79,7 @@ Our findings concluded that finding housing in Seattle is statistically harder i
 
 ### Table
 
-```{r,echo = FALSE, code = readLines("table.R"),} 
+```{r,echo = FALSE, message = false, code = readLines("table.R"),} 
 library(dplyr)
 library(kableExtra)
 
@@ -144,7 +144,7 @@ head(joseph_summary[c("Date","Rental Vanacancy Rate Percentage")])%>%
 
 ### Chart 1
 
-```{r, echo = FALSE, code = readLines("Chart1.R")}
+```{r, echo = FALSE, message = false, code = readLines("Chart1.R")}
 # Author: Lewis Going
 library("ggplot2")
 library("tidyverse")
@@ -173,7 +173,7 @@ The purpose of this chart was to visually represent the relationship between hom
 
 ### Chart 2
 
-```{r, echo = FALSE, code = readLines("Chart2.R")}
+```{r, echo = FALSE, message = false, code = readLines("Chart2.R")}
 library("ggplot2")
 library("tidyverse")
 library("plotly")
