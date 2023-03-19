@@ -75,7 +75,11 @@ Despite these challenges, there are still ways for Seattle residents to get invo
 
 ### Summary Information
 
-Our findings concluded that finding housing in Seattle is statistically harder in Seattle than other similar cities.
+There are a variety of ways that Seattle could make its housing market less of a feeding frenzy. Seattle or the state government needs to step in and make multilateral changes to make life more affordable for current homeowners and renters and get people off the streets. 
+
+Our findings concluded that finding housing in Seattle is statistically harder in Seattle than other similar cities. The most salient statistic regarding Seattle’s problem is the average days in market as shown in graph 3. Seattle has the shortest median period of days on market from any of the 20 biggest US cities at less than 20 days. Square footage has little to do with high median home prices in Seattle. There is a weak correlation between average square footage and average median home prices across the country, so the problem is not a matter of opulence: where people buy more than what they need, it is a true market failure. 
+
+Rental vacancy rates remain high throughout the entire US. In 2023 rates are hovering around 6%. In Seattle that leaves somewhere around 33,000 vacant homes, a number less than the amount of homeless people on the streets. So, that leaves the question of how does the government facilitate a way to get these homeless people into vacant homes using either punitive laws or rewards for property owners? 
 
 ### Table
 
